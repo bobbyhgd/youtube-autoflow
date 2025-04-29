@@ -5,7 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>YouTube AutoFlow - Automation Tool</title>
-  <link rel="stylesheet" href="styles.css"> <!-- Link to an external CSS file for styling -->
+  <!-- Adding some simple CSS for styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -13,32 +62,14 @@
     <p>Automate your YouTube uploads and workflows with ease.</p>
   </header>
 
-  <main>
-    <section aria-labelledby="about-heading">
-      <h2 id="about-heading">About This App</h2>
-      <p>YouTube AutoFlow is an automation tool designed to help content creators upload videos to YouTube directly from external platforms like n8n. It saves time and improves accuracy by automating repetitive tasks.</p>
-    </section>
-
-    <section aria-labelledby="access-heading">
-      <h2 id="access-heading">Why We Need Access to Your Google Account</h2>
-      <p>We require access to your Google account to upload videos to your YouTube channel. The OAuth scopes requested are:</p>
-      <ul>
-        <li><strong>youtube.upload</strong> – Upload videos to YouTube</li>
-        <li><strong>gmail.send</strong> (if used) – Send alerts and confirmations</li>
-      </ul>
-      <p>Your data is secure, and you can revoke access at any time via Google’s account settings.</p>
-    </section>
-
-    <section aria-labelledby="privacy-heading">
-      <h2 id="privacy-heading">Privacy & Security</h2>
-      <p>Your privacy is important to us. We comply with Google’s API Services User Data Policy and ensure your data is used only for the purpose of automating YouTube uploads.</p>
-      <a href="/privacy-policy.html">Read our full Privacy Policy</a> <!-- Add a link to the full privacy policy -->
-    </section>
-  </main>
+  <section>
+    <h2>About This App</h2>
+    <p>YouTube AutoFlow is an automation tool designed to help content creators upload videos to YouTube directly from external platforms like n8n. It saves time and improves accuracy by automating video metadata and scheduling.</p>
+    <a href="https://example.com" class="button">Get Started</a>
+  </section>
 
   <footer>
-    <p>Contact us at: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-    <p>&copy; 2025 YouTube AutoFlow. All rights reserved.</p>
+    <p>&copy; 2025 YouTube AutoFlow. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
