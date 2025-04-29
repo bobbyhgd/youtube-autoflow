@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>YouTube AutoFlow - Automation Tool</title>
+  <!-- Adding some simple CSS for styling -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YouTube AutoFlow</h1>
+    <p>Automate your YouTube uploads and workflows with ease.</p>
+  </header>
+
+  <section>
+    <h2>About This App</h2>
+    <p>YouTube AutoFlow is an automation tool designed to help content creators upload videos to YouTube directly from external platforms like n8n. It saves time and improves accuracy by automating video metadata and scheduling.</p>
+    <a href="https://example.com" class="button">Get Started</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 YouTube AutoFlow. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
