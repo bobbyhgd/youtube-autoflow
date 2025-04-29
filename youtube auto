@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>YouTube AutoFlow - Automation Tool</title>
+</head>
+<body>
+  <header>
+    <h1>YouTube AutoFlow</h1>
+    <p>Automate your YouTube uploads and workflows with ease.</p>
+  </header>
+
+  <section>
+    <h2>About This App</h2>
+    <p>YouTube AutoFlow is an automation tool designed to help content creators upload videos to YouTube directly from external platforms like n8n. It saves time and improves accuracy by automating video metadata and scheduling.</p>
+  </section>
+
+  <section>
+    <h2>Why We Need Access to Your Google Account</h2>
+    <p>We require access to your Google account to upload videos to your YouTube channel. The OAuth scopes requested are:</p>
+    <ul>
+      <li>youtube.upload – Upload videos to YouTube</li>
+      <li>gmail.send (if used) – Send alerts and confirmations</li>
+    </ul>
+    <p>Your data is secure, and you can revoke access at any time via Google’s account settings.</p>
+  </section>
+
+  <section>
+    <h2>Privacy & Security</h2>
+    <p>Your privacy is important to us. We comply with Google’s API Services User Data Policy and ensure your data is used only for the purpose of automating YouTube uploads.</p>
+  </section>
+
+  <footer>
+    <p>Contact: yourname@example.com</p>
+  </footer>
+</body>
+</html>
